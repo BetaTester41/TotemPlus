@@ -1,6 +1,6 @@
-package me.connlost.totemplus.mixin;
+package online.connlost.totemplus.mixin;
 
-import me.connlost.totemplus.util.IDamageSource;
+import online.connlost.totemplus.util.IDamageSource;
 import net.minecraft.entity.damage.DamageSource;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

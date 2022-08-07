@@ -1,6 +1,6 @@
-package me.connlost.totemplus.mixin;
+package online.connlost.totemplus.mixin;
 
-import me.connlost.totemplus.util.IPlayerEntity;
+import online.connlost.totemplus.util.IPlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.MovementType;
 import net.minecraft.entity.player.PlayerEntity;

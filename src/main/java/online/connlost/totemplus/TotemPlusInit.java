@@ -1,4 +1,4 @@
-package me.connlost.totemplus;
+package online.connlost.totemplus;
 
 import net.fabricmc.api.ModInitializer;
 

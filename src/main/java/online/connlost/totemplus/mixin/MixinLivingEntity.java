@@ -1,7 +1,7 @@
-package me.connlost.totemplus.mixin;
+package online.connlost.totemplus.mixin;
 
-import me.connlost.totemplus.util.IDamageSource;
-import me.connlost.totemplus.util.TotemFeatures;
+import online.connlost.totemplus.util.IDamageSource;
+import online.connlost.totemplus.util.TotemFeatures;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;

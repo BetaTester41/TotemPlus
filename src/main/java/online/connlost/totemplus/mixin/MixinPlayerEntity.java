@@ -1,6 +1,6 @@
-package me.connlost.totemplus.mixin;
+package online.connlost.totemplus.mixin;
 
-import me.connlost.totemplus.util.IPlayerEntity;
+import online.connlost.totemplus.util.IPlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.player.PlayerEntity;
@@ -9,7 +9,6 @@ import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
 import java.util.ArrayList;
-import java.util.Queue;
 
 @Mixin(PlayerEntity.class)
 public abstract class MixinPlayerEntity extends Entity implements IPlayerEntity {

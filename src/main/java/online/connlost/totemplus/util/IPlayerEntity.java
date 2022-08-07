@@ -1,4 +1,4 @@
-package me.connlost.totemplus.util;
+package online.connlost.totemplus.util;
 
 import net.minecraft.util.math.BlockPos;
 
