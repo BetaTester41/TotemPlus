@@ -13,7 +13,7 @@ public class TotemFeatures {
     public static void reviveFromVoid(Entity player) {
         player.setVelocity(0, 0, 0);
         Vec3d f = findSafePos(player);
-        player.teleport(f.x, f.y, f.z);
+        ((LivingEntity) player).teleport(f.x, f.y, f.z, false);
         player.refreshPositionAfterTeleport(f);
         if (player instanceof LivingEntity) {
             ((LivingEntity) player).addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 100, 1));
